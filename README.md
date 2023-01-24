@@ -20,12 +20,16 @@
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
-
 ## 🚀 Iniciando no mundo SQL
 
 Para iniciar vamos aprender o conteúdo abaixo:
 
-- O que é SQL
+### O que é SQL
+
+SQL (Structure Query Language), significa Linguagem de Consulta Estruturada.\
+A linguagem SQL é usada para gerenciar banco de dados e execultar operações nele.\
+As instruções SQL são usadas para executar tarefas como _inserir, atualizar, remover_ e _recuperar_ dados de um banco de dados.
+
 - O que é SQL Server
 - História do SQL Server
 - Modelo Relacional
