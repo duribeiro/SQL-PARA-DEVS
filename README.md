@@ -30,9 +30,32 @@ SQL (Structure Query Language), significa Linguagem de Consulta Estruturada.\
 A linguagem SQL é usada para gerenciar banco de dados e execultar operações nele.\
 As instruções SQL são usadas para executar tarefas como _inserir, atualizar, remover_ e _recuperar_ dados de um banco de dados.
 
-- O que é SQL Server
-- História do SQL Server
-- Modelo Relacional
+### O que é SQL Server
+
+SQL Server é um Sistem Gerenciador de Banco de Dados Relacionais, é de propriedade da Microsoft e é disponibilizado em versões.
+
+- SQL Server Express\
+É gratiuiro para usar, ideal para aplicações de pequeno porte, pode ser usada na arquitetura cliente-servidor, tem um limite de 10Gb/banco, tem uma versão mais leve do banco de dados.
+
+- SQL Server Developer\
+É uma versão completa,tem licença, só pode ser usado em ambiente de desenvolvimento (ou seja, não dá para usar em ambiente de produção).
+
+- SQL Server Web\
+Versão focada na internet, é mais performática do que a versão express tem limite de 64Gb/banco.
+
+- SQL Server Standard\
+2x melhor que a versão web, oferece backup criptografado 128Gb/banco.
+
+- SQL Server Enterprise\
+Versão mais completa
+
+- SQL Server Cloud\
+Serviço do SQL Server em nuvem, ex: Microsoft Azure, Amazon Web Services, Google Cloud Plataform
+
+### Modelo Relacional
+
+
+
 - O que é um banco de dados
 - O que é uma tabela
 - O que é uma chave primária
