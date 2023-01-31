@@ -129,6 +129,19 @@ CREATE TABLE alunos
     ativo bit DEFAULT 1
 )
 ```
+### Inserindo Registros
+
+```SQL
+--Insere um novo registro na tabela alunos tendo cada coluna preenchida com os respectivos valores.
+    --OBS a função GETDATE() preenche o campo com a data atual do sistema no formato yyyy-mm-dd.
+INSERT INTO alunos(nome, cpf, data_nascimento, ativo) VALUES ('Rafael', '00000000001', GETDATE(), 0);
+
+--Insere vários registro de uma vez
+INSERT INTO alunos(nome, cpf, data_nascimento, ativo) 
+VALUES 
+('Eduardo', '00000000002', GETDATE(), 0),
+('Bruno', '00000000003', GETDATE(), 0);
+```
 
 ## 💻 Base de conhecimentos
 ## 💻 Clásulas e operadores
