@@ -191,6 +191,26 @@ SET ativo=1
 WHERE id IN (1,3);
 ```
 
+### Deletando registros
+
+```SQL
+--Deleta todos os dados da tabela alunos
+DELETE FROM alunos;
+
+--Deleta de maneira mais perfomática todos os dados da tabela alunos
+TRUNCATE TABLE alunos;
+
+--Deleta um registro da tabela alunos
+DELETE TOP (1) FROM alunos;
+
+--Deleta 10% dos registro da tabela alunos
+DELETE TOP (10) PERCENT FROM alunos;
+
+--Deleta apenas um registro
+--O WHERE filtra pelo id
+DELETE TOP (1) FROM alunos WHERE id = 1;
+```
+
 ## 💻 Base de conhecimentos
 ## 💻 Clásulas e operadores
 ## 💻 Joins
