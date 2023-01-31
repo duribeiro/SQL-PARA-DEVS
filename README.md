@@ -165,6 +165,31 @@ SELECT nome as nome_aluno, cpf FROM alunos;
 ```
 ![image](https://user-images.githubusercontent.com/80548321/215846017-998a3827-2906-4ac3-958e-238945a32e14.png)
 
+### Atualizando Registro
+
+```SQL
+--Busca todos os registros de todas as colunas da tabela alunos
+SELECT * FROM alunos
+
+--UPDATE é o comando que atualiza as colunas da tabela alunos
+--O SET recebe a colula que tera seu valor alterado
+--O WHERE é um filtro que impede que a atualização seja aplicada para todas as colunas da tabela
+UPDATE alunos
+SET ativo=1
+WHERE id=1;
+
+
+--Atualizando mais de uma coluna ao mesmo tempo
+UPDATE alunos
+SET data_nascimento='1993-05-07', ativo=1
+WHERE id=1;
+
+--Atualizando mais de um registro ao mesmo tempo
+UPDATE alunos
+SET data_nascimento='1993-05-07', ativo=1
+WHERE id=1;
+```
+
 
 ## 💻 Base de conhecimentos
 ## 💻 Clásulas e operadores
