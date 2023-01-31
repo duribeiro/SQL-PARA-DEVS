@@ -84,6 +84,26 @@ Um aluno pode se matricular em vários cursos e um curso pode ter vários alunos
 
 ## 💻 Ambiente
 ## 💻 Hands-On-SQL básico
+
+### Criando um banco de dados
+
+```SQL
+--Criar um banco de dados
+CREATE DATABASE DesenvolvedorIO;
+
+--Deletar um banco de dados
+DROP DATABASE DesenvolvedorIO;
+
+--Força o banco de dados a ser acessado por apenas um usuário simples, isso permite que o banco
+--seja dropado depois que um ou mais usuários já logaram nele.
+ALTER DATABASE DesenvolvedorIO SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+
+--Cria um banco de dados e seu respectivo banco de logo em um caminho específico no sistema
+CREATE DATABASE DesenvolvedorIO
+ON (name = 'Dev_msf', FILENAME = 'C:\Projects\repos\CursoSQL\DB\Dev.mdf')
+LOG ON (name = 'Dev_log', FILENAME = 'C:\Projects\repos\CursoSQL\DB\Dev.ldf');
+```
+
 ## 💻 Base de conhecimentos
 ## 💻 Clásulas e operadores
 ## 💻 Joins
