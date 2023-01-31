@@ -213,8 +213,8 @@ DELETE TOP (1) FROM alunos WHERE id = 1;
 
 ## 💻 Criando tabelas
 
-Use o [script create_tabels](/src/sql/create_tables.sql) para criar as tabelas.
-Use o [script inset_data](/src/sql/create_tables.sql) para inserir dados nas tabelas.
+Use o [script create_tabels](/src/sql/create_tables.sql) para criar as tabelas.\
+Use o [script inset_data](/src/sql/insert_data.sql) para inserir dados nas tabelas.
 
 ## 💻 Joins
 ## 💻 Transações
