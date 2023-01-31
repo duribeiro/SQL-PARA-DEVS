@@ -83,6 +83,12 @@ Um aluno pode se matricular em vários cursos e um curso pode ter vários alunos
 - O que é T-SQL
 
 ## 💻 Ambiente
+
+### SQL Server e Azure Data Studio
+
+- [SQL Server](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads)
+- [Azure](https://learn.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver16&culture=pt-br&country=br&tabs=redhat-install%2Credhat-uninstall)
+
 ## 💻 Hands-On-SQL básico
 
 ### Criando um banco de dados
