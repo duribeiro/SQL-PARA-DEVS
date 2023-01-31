@@ -175,8 +175,8 @@ SELECT * FROM alunos
 --O SET recebe a colula que tera seu valor alterado
 --O WHERE é um filtro que impede que a atualização seja aplicada para todas as colunas da tabela
 UPDATE alunos
-SET ativo=1
-WHERE id=1;
+SET ativo=0
+WHERE id=2;
 
 
 --Atualizando mais de uma coluna ao mesmo tempo
@@ -185,11 +185,11 @@ SET data_nascimento='1993-05-07', ativo=1
 WHERE id=1;
 
 --Atualizando mais de um registro ao mesmo tempo
+--Dentro do WHERE o IN abre uma lista de de ids para serem alterados
 UPDATE alunos
-SET data_nascimento='1993-05-07', ativo=1
-WHERE id=1;
+SET ativo=1
+WHERE id IN (1,3);
 ```
-
 
 ## 💻 Base de conhecimentos
 ## 💻 Clásulas e operadores
