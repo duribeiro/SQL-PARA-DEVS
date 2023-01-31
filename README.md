@@ -129,6 +129,7 @@ CREATE TABLE alunos
     ativo bit DEFAULT 1
 )
 ```
+
 ### Inserindo Registros
 
 ```SQL
@@ -142,6 +143,28 @@ VALUES
 ('Eduardo', '00000000002', GETDATE(), 0),
 ('Bruno', '00000000003', GETDATE(), 0);
 ```
+
+### Consultando Registros
+
+```SQL
+--Busca e retorna todos os registro de todas as colulas da tabela alunos
+SELECT * FROM alunos;
+```
+![image](https://user-images.githubusercontent.com/80548321/215845610-f56c2c70-7107-407c-91cb-1618505dede9.png)
+
+```SQL
+--Busca e retorna todos os registro das colunas nome e cpf
+SELECT nome, cpf FROM alunos;
+```
+![image](https://user-images.githubusercontent.com/80548321/215845849-24e3a61a-d155-4acc-9230-e5260846c673.png)
+
+```SQL
+--Busca e retorna todos os registro das colunas nome e cpf
+--Exibe a coluna nome com o alias nome_aluno
+SELECT nome as nome_aluno, cpf FROM alunos;
+```
+![image](https://user-images.githubusercontent.com/80548321/215846017-998a3827-2906-4ac3-958e-238945a32e14.png)
+
 
 ## 💻 Base de conhecimentos
 ## 💻 Clásulas e operadores
