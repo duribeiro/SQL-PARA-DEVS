@@ -211,8 +211,10 @@ DELETE TOP (10) PERCENT FROM alunos;
 DELETE TOP (1) FROM alunos WHERE id = 1;
 ```
 
-## 💻 Base de conhecimentos
-## 💻 Clásulas e operadores
+## 💻 Criando tabelas
+
+Use o [script sql](/src/sql/create_tables.sql) para criar as tabelas.
+
 ## 💻 Joins
 ## 💻 Transações
 ## 💻 T-SQL
