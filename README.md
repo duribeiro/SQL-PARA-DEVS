@@ -110,6 +110,26 @@ ON (name = 'Dev_msf', FILENAME = 'C:\Projects\repos\CursoSQL\DB\Dev.mdf')
 LOG ON (name = 'Dev_log', FILENAME = 'C:\Projects\repos\CursoSQL\DB\Dev.ldf');
 ```
 
+### Criando uma tabela
+
+```SQL
+--Cria uma tabela chamada alunos
+    --Cria a coluna id do tipo int, seta como chave primária, incrementa de forma automática o próximo id
+    --Cria coluna nome do tipo varchar limitado a 80 caractéries, impede de o campo ser nulo
+    --Cria coluna cpf tipo char, 11 caractéries, não pode ser nulo
+    --Cria coluna data_nascimento do tipo date
+    --Cria coluna ativo do tipo bit (é como se fosse o booleano), valor padrão 1
+
+CREATE TABLE alunos
+(
+    id INT PRIMARY KEY IDENTITY,
+    nome VARCHAR(80) NOT NULL,
+    cpf CHAR(11) NOT NULL,
+    data_nascimento DATE,
+    ativo bit DEFAULT 1
+)
+```
+
 ## 💻 Base de conhecimentos
 ## 💻 Clásulas e operadores
 ## 💻 Joins
