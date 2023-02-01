@@ -216,9 +216,10 @@ DELETE TOP (1) FROM alunos WHERE id = 1;
 Use o [script create_tabels](/src/sql/create_tables.sql) para criar as tabelas.\
 Use o [script inset_data](/src/sql/insert_data.sql) para inserir dados nas tabelas.
 
-## 💻 Joins
-## 💻 Transações
 ## 💻 T-SQL
+
+Funções T-SQL https://learn.microsoft.com/pt-br/sql/t-sql/functions/functions?view=sql-server-ver15
+
 ## 💻 Backup
 ## 💻 Tips-Tricks
 ## 💻 Encerramento
